@@ -1,0 +1,137 @@
+html{
+	scroll-behavior: smooth;
+}
+
+img{
+	max-width: 100%;
+}
+.header-sectionh {
+	background: #083AA9;
+	
+}
+.logo {
+	width: 107px;
+}
+.menu-section {
+	text-align: right;
+	margin-bottom: 0;
+}
+.menu-section li {
+	display: inline-block;
+	padding: 2px 18px;
+	line-height: 52px;
+}
+.menu-section a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+.slider {
+	background-image: url(https://th.bing.com/th/id/R.0472e0f25c54a6c1b842981c378baab9?rik=SbeCHWLUxHBwyg&pid=ImgRaw&r=0);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slider-content {
+	margin: auto 0;
+	margin-top: 14rem;
+}
+
+.slider-content h2 {
+	font-weight: bold;
+	font-size: 48px;
+	text-transform: capitalize;
+	color: #183a37;
+	break-after: ;
+	background: gainsboro;
+	display: inline-block;
+	padding: 1rem 5rem;
+	text-align: center;
+	border-radius: 10px;
+
+}
+.about{
+    background-color: #efd6ac;
+    color: #000;
+}
+.services {
+	text-align: center;
+	padding: 1rem;
+	background: #3ff6ba;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding-bottom: 33px;
+	color: #000;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+.services h4 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+i {
+	border: 3px solid;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.blog-img{
+    margin-bottom: 10xp;
+}
+
+ .blog-img img{
+	width: 150px;
+	float: left;
+	margin-right: 2rem;
+    
+}
+.blog-content {
+	padding: 1rem;
+}
+
+/*  */
+
+.notice-content h3 {
+	font-size: 47px;
+	background: gray;
+	text-align: center;
+	padding: 17px 0;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 12px;
+	margin-bottom: 19px;
+}
+
+.notice-content  ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+.notice-content ul li {
+	border: 1px solid;
+	padding: 1rem 0;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	cursor: pointer;
+	list-style-type: none;
+	transition: 0.4s;
+}
+.notice-content ul li:hover{
+	background-color: #749F82;
+	color: #fff;
+}
+
+.footer-content {
+	background: #333;
+	padding: 1rem;
+	text-align: center;
+	color: #fff;
+	font-family: aria;
+	font-size: 19px;
+}
